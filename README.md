@@ -1,5 +1,7 @@
 # miniSQL
 a mini-SQL database, supporting operations like create(drop) database and table, create(drop) index, select(select with index,insert,delete) records.
+# 使用方法
+将src源文件导入工程中编译即可。注意：本项目使用到了BOOST库作序列化，所以必须要有BOOST库才能成功编译。
 # 目标
 设计并实现一个精简型单用户SQL引擎(DBMS)MiniSQL，允许用户通过字符界面输入SQL语句实现表的建立/删除；索引的建立/删除以及表记录的插入/删除/查找。
 #需求概述
