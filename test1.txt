@@ -1,0 +1,11 @@
+
+insert into tt1 values(22,'sdf',10.0);
+insert into tt1 values(28,'sdfqw',12.0);
+insert into tt1 values(23,'efsa',15.0);
+
+insert into tt1 values(11,'ssdfa',10.0);
+insert into tt1 values(21,'ddsa',12.0);
+insert into tt1 values(31,'edfsa',15.0);
+
+select * from t1;
+select * from tt1;
